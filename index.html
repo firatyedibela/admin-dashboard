@@ -6,13 +6,67 @@
   <title>Dashboard</title>
   <link rel="stylesheet" href="style.css">
   <script src="./script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400;1,600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/sidebar.css">
 </head>
 <body>  
   <div id="main-wrapper">
-    <div id="sidebar"></div>
+
+    <div id="sidebar">
+      <div id="sidebar-header">
+        <div>
+          <img style="width: 40px; height: 40px;" class="sidebar-logos" src="./svg-logos/view-dashboard.svg" alt="">
+          <p style="font-size: 1.4rem">Dashboard</p>
+        </div>
+      </div>
+      <div id="sidebar-nav">
+        <div>
+          <img class="sidebar-logos" src="./svg-logos/home.svg" alt="">
+          <p>Home</p>
+        </div>
+        <div>
+          <img class="sidebar-logos" src="./svg-logos/card-account-details-outline.svg" alt="">
+          <p>Profile</p>
+        </div>
+        <div>
+          <img class="sidebar-logos" src="./svg-logos/message.svg" alt="">
+          <p>Messages</p>
+        </div>
+        <div>
+          <img class="sidebar-logos" src="./svg-logos/history.svg" alt="">
+          <p>History</p>
+        </div>
+        <div>
+          <img class="sidebar-logos" src="./svg-logos/calendar-check.svg" alt="">
+          <p>Tasks</p>
+        </div>
+        <div>
+          <img class="sidebar-logos" src="./svg-logos/account-group.svg" alt="">
+          <p>Communities</p>
+        </div>
+      </div>
+      <div id="sidebar-branding">
+        <div>
+          <img class="sidebar-logos" src="./svg-logos/cog.svg" alt="">
+          <p>Settings</p>
+        </div>
+        <div>
+          <img class="sidebar-logos" src="./svg-logos/face-agent.svg" alt="">
+          <p>Support</p>
+        </div>
+        <div>
+          <img class="sidebar-logos" src="./svg-logos/security.svg" alt="">
+          <p>Privacy</p>
+        </div>
+      </div>
+    </div>
+
     <div id="header"></div>
+
     <div id="main-content"></div>
   </div>
-  
 </body>
 </html>

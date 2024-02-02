@@ -1,0 +1,46 @@
+#sidebar {
+  padding-left: 20px;
+  padding-top: 20px;
+  grid-row: span 2;
+  display: grid;
+  grid-template-rows: repeat(3, max-content);
+  gap: 50px;
+  background-color: #1f2937;
+  color: white;
+  font-family: roboto;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#sidebar > div {
+  display: grid;
+  gap: 24px;
+}
+
+.sidebar-logos {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  filter: invert(100%);
+}
+
+#sidebar > div > div {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 6px;
+  align-items: center;
+}
+
+#sidebar img {
+  justify-self: center;
+  cursor: pointer;
+}
+
+#sidebar p {
+  cursor: pointer;
+}
+
+#sidebar-branding {
+  margin-top: 26px;
+}
