@@ -1,0 +1,89 @@
+#header {
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+  padding: 10px 48px;
+  font-family: roboto;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 8px;
+  position: relative;
+  z-index: 2;
+}
+
+#header-bottom,
+#header-top {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+#header-bottom > div,
+#header-top > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#header-top > div:last-child {
+  gap: 30px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  justify-content: end;
+}
+
+#header-top > div:last-child * {
+  cursor: pointer;
+}
+
+#header-bottom > div:first-child > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+#header-bottom > div:first-child > div p:last-child {
+  font-weight: bold;
+  font-size: 1.55rem;
+}
+
+#header-bottom > div:last-child {
+  justify-content: end;
+  gap: 34px;
+}
+
+#header-bottom button {
+  background-color: #0284c7;
+  color: white;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  height: 50px;
+  width: 120px;
+  border-radius: 200px;
+  cursor: pointer;
+}
+
+.header-logo {
+  height: 28px;
+  width: 28px;
+  cursor: pointer;
+}
+
+.profile-image {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+#header input {
+  background-color: #e2e8f0;
+  border: none;
+  width: 82%;
+  height: 38px;
+  border-radius: 20px;
+  outline: none;
+  padding-left: 20px;
+  font-size: 1.2rem;
+}
+
+

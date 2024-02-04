@@ -14,5 +14,5 @@ body {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 6fr;
-  grid-template-rows: auto auto;
+  grid-template-rows: 200px 1fr;
 }
