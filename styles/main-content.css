@@ -6,7 +6,7 @@
   background-color: #e2e8f0;
   display: grid;
   grid-template-columns: 6fr 2fr;
-  gap: 20px;
+  gap: 35px;
 }
 
 #projects-section {
@@ -23,13 +23,12 @@
   display: flex;
   align-items: end;
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .project-card {
   background-color: #fff;
   border-radius: 12px;
-  height: 280px;
   box-sizing: border-box;
   padding: 30px 40px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -51,7 +50,7 @@
 .project-info {
   font-size: 1.1rem;
   line-height: 26px;
-  color: rgb(87, 87, 87);
+  color: gray;
 }
 
 .project-ui-logos {
@@ -66,3 +65,89 @@
 .project-ui-logos img {
   filter: invert(20%);
 }
+
+#additional-info-section {
+  padding-right: 35px;
+}
+
+#announcements-header {
+  height: 60px;
+  display: flex;
+  align-items: end;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+#announcements {
+  padding: 30px;
+  background-color: white;
+  display: grid;
+  gap: 25px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#announcements > div {
+  border-bottom: 2px solid rgb(193, 193, 193);
+  padding-bottom: 25px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+#announcements > div:last-child {
+  border: none;
+  padding-bottom: 0px;
+}
+
+#announcements .header {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+#announcements .info {
+  color: gray;
+}
+
+#trending-header {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#trending {
+  padding: 30px;
+  background-color: white;
+  display: grid;
+  gap: 26px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+#trending > div {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  
+} 
+
+.trend-user-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+#trending .user-name {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#trending > div > div p:last-child {
+  color: gray;
+}
+
+
