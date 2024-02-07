@@ -28,12 +28,13 @@
 
 .project-card {
   background-color: #fff;
-  border-radius: 12px;
   box-sizing: border-box;
-  padding: 30px 40px;
+  padding: 30px 20px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   display: flex;
   flex-direction: column;
+  border-left: 10px solid rgba(255, 166, 0, 0.849);
+  border-radius: 10px;
 }
 
 .project-ui-logos > img {
@@ -45,12 +46,14 @@
   font-weight: bold;
   font-size: 1.3rem;
   margin-bottom: 6px;
+  cursor: pointer;
 }
 
 .project-info {
   font-size: 1.1rem;
   line-height: 26px;
   color: gray;
+  margin-bottom: 32px;
 }
 
 .project-ui-logos {
